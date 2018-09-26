@@ -1,7 +1,7 @@
 import turtle
 
 a = turtle.Turtle()
-a.color('red', 'yellow')
+a.color('red', 'black')
 a.begin_fill()
 while True:
     a.forward(200)

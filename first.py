@@ -1,4 +1,6 @@
 def move(num, fro, temp, to):
+	"""汉诺塔实现
+	"""
     if num == 0:
         return
     move(num - 1, fro, to, temp)
